@@ -1,19 +1,17 @@
-#  Struts2 中文版
+# Struts 2 教程
 
-官方英文原版：   
-http://www.tutorialspoint.com/struts_2/index.htm
-## 目的
+Apache Struts2 是一个简洁的，可扩展的框架，它用来创建企业级的 Java web 应用程序。框架的目的是随着时间的积累从构建，部署，维护应用程序上简化整个开发周期。Apache Struts 2 最初被称为 WebWork 2。
 
-翻译官方文档，目录见文件 [TOC.md](TOC.md)
+本教程将教你如何用简单和容易的步骤使用 Apache Struts 来创建企业级的 Java web 应用程序。
 
-## 操作示例
+|更新日期    |更新内容
+|----------|--------------------
+|2015-05-5|Struts 2 中文版
 
-https://github.com/jikexueyuanwiki/guide
+# 读者
 
-## 如何添加图片
+本教程是专门为了需要理解 Struts 2.x 框架及其应用程序的 Java 程序员设计的。本教程将使你达到专家的中等水平。 
 
-前提：官网上的所有图片都已经下载下来放入「images」文件夹，图片的文件名没做任何修改。
+# 预备知识
 
-1、请引用「images」文件夹中的图片，不要直接引用官方上的图片链接；    
-2、引用「images」文件夹时，请使用相对文件路径。
-
+在继续本教程之前，你应该很好的理解了 Java 编程语言。对 MVC 框架和 JSP 或 Servlet 有基本的了解是很有帮助的。

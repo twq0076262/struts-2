@@ -1,5 +1,4 @@
  - Struts 2 Tutorial
-   - [Struts2 - 主页](index.md)
    - [Struts2 - 基本的 MVC 架构](basic_mvc_architecture.md)
    - [Struts2 - 概述](struts_overview.md)
    - [Struts2 - 环境设置](struts_environment_setup.md)

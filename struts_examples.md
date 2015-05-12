@@ -213,7 +213,7 @@ org.apache.catalina.core.ContainerBase.[Catalina].handlers = \
 
 ## 执行应用程序
 
-在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomca t服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp。将会给出下面的画面：
+在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomca t服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp. 将会给出下面的画面：
 
 ![](images/helloworldstruts4.jpg)
 
@@ -221,7 +221,7 @@ org.apache.catalina.core.ContainerBase.[Catalina].handlers = \
 
 ![](images/helloworldstruts5.jpg)
 
-注意，你可以在 struts.xml 文件中定义**索引**作为一个动作。在这种情况下，你可以调用索引页面 http://localhost:8080/HelloWorldStruts2/index.action。检查下面如何定义索引作为一个动作：
+注意，你可以在 struts.xml 文件中定义**索引**作为一个动作。在这种情况下，你可以调用索引页面 http://localhost:8080/HelloWorldStruts2/index.action/ 检查下面如何定义索引作为一个动作：
 
 ``` 
 <?xml version="1.0" encoding="UTF-8"?>

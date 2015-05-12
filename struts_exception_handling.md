@@ -80,7 +80,7 @@ public class HelloWorldAction extends ActionSupport{
 </struts>
 ```
 
-现在鼠标右键单击项目名并点击 **Export > WAR File** 来创建一个 War 文件。然后把这个 WAR 部署到 Tomcat 的 web 应用程序目录中。最后，启动 Tomcat 服务器并尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp。这将呈现如下所示的画面：
+现在鼠标右键单击项目名并点击 **Export > WAR File** 来创建一个 War 文件。然后把这个 WAR 部署到 Tomcat 的 web 应用程序目录中。最后，启动 Tomcat 服务器并尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp. 这将呈现如下所示的画面：
 
 ![](images/helloworldstruts4.jpg)
 
@@ -128,7 +128,7 @@ public class HelloWorldAction extends ActionSupport{
 </struts>
 ```
 
-正如上述例子显示的一样，现在我们已经配置了 Struts 来为 NullPointerException 使用专门的 Error.jsp。如果现在你重新运行这个程序，你应该能看到如下所示的输出：
+正如上述例子显示的一样，现在我们已经配置了 Struts 来为 NullPointerException 使用专门的 Error.jsp. 如果现在你重新运行这个程序，你应该能看到如下所示的输出：
 
 ![](images/helloworldstruts17.jpg)
  

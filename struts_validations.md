@@ -144,7 +144,7 @@ public class Employee extends ActionSupport{
 </web-app>
 ```
 
-现在，右键点击项目名称，并单击 **Export > WAR File** 创建一个 WAR 文件。然后在 Tomcat 的 webapps 目录下部署此 WAR 。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp。这会给出以下画面：
+现在，右键点击项目名称，并单击 **Export > WAR File** 创建一个 WAR 文件。然后在 Tomcat 的 webapps 目录下部署此 WAR 。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp. 这会给出以下画面：
 
 ![](images/helloworldstruts12.jpg)
 

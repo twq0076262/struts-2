@@ -182,7 +182,7 @@ public class MenuAction extends ActionSupport {
 
 我们通过使用一些常规表达式来实现这点。在我们的操作定义中，我们说匹配模式 "*Menu" 将由这个操作处理。匹配方法包括在 MenuAction 类中。也就是，tigerMenu.action 会包括 tiger() 且 lionMenu.action 会包括 lion()。然后我们需要将产生的结果映射到适当的 tiles 页面中。
 
-现在鼠标右键单击项目名，然后单击 Export > WAR 文件来创建一个 War 文件。然后在 Tomcat 的应用程序目录中部署该 WAR 文件。最后，启动 Tomcat 服务器并尝试访问 URL http://localhost:8080/HelloWorldStruts2/tigerMenu.jsp。这会呈现如下所示的画面：
+现在鼠标右键单击项目名，然后单击 Export > WAR 文件来创建一个 War 文件。然后在 Tomcat 的应用程序目录中部署该 WAR 文件。最后，启动 Tomcat 服务器并尝试访问 URL http://localhost:8080/HelloWorldStruts2/tigerMenu.jsp. 这会呈现如下所示的画面：
 
 ![](images/struts_tiles.gif)
 

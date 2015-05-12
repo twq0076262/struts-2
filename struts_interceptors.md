@@ -156,7 +156,7 @@ Struts 2 框架提供了一列开箱即用的拦截器来预先设定和准备�
 &lt;/struts&gt;
 </pre>  
 
-右键单击项目名称，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp。将会给出下面的画面：
+右键单击项目名称，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp. 将会给出下面的画面：
 
 ![](images/helloworldstruts4.jpg)
 
@@ -347,7 +347,7 @@ web.xml 文件需要在 WebContent 的 WEB-INF 文件夹下创建，如下所示
 </web-app>
 ```
 
-右键单击项目名称，并且单击 **Export > WAR File** 来创建一个 War文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp。将会给出下面的画面：
+右键单击项目名称，并且单击 **Export > WAR File** 来创建一个 War文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp/ 将会给出下面的画面：
 
 ![](images/helloworldstruts4.jpg)
 

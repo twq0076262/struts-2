@@ -62,7 +62,7 @@ Hello World ${name}
 </struts>
 ```
 
-让我们保留 HelloWorldAction.java，HelloWorldAction.jsp 和 index.jsp 文件，因为我们在 examples 章节中已经创建了他们。现在，在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个  War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp。将会给出下面的画面：
+让我们保留 HelloWorldAction.java，HelloWorldAction.jsp 和 index.jsp 文件，因为我们在 examples 章节中已经创建了他们。现在，在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个  War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp. 将会给出下面的画面：
 
 ![](images/helloworldstruts4.jpg)
 

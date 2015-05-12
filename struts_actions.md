@@ -145,7 +145,7 @@ public class HelloWorldAction extends ActionSupport{
 
 ## 执行应用程序
 
-在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录中部署这个 WAR。最后，启动 Tomcat 服务器，并且尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp。它将会给出下面的画面：
+在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录中部署这个 WAR。最后，启动 Tomcat 服务器，并且尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp. 它将会给出下面的画面：
 
 ![](images/helloworldstruts4.jpg)
 

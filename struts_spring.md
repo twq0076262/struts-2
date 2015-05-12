@@ -142,7 +142,7 @@ public class User {
 
 需要注意的重要的一点是我们用 id **userClass** 来代表类。这意味着我们使用的是 spring 来为 User 类进行依赖注入。
 
-现在鼠标右键单击项目名，然后单击 **Export > WAR File** 来创建一个 War 文件。然后将这个 WAR 文件部署到 Tomcat 的 web 应用程序目录中。最后，启动 Tomcat 服务器并尝试访问 URL http://localhost:8080/HelloWorldStruts2/User.jsp。这将呈现如下所示的画面：
+现在鼠标右键单击项目名，然后单击 **Export > WAR File** 来创建一个 War 文件。然后将这个 WAR 文件部署到 Tomcat 的 web 应用程序目录中。最后，启动 Tomcat 服务器并尝试访问 URL http://localhost:8080/HelloWorldStruts2/User.jsp. 这将呈现如下所示的画面：
 
 ![](images/struts-spring2.gif)
 

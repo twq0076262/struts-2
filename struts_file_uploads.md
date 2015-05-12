@@ -215,7 +215,7 @@ public class uploadFile extends ActionSupport{
 </web-app>
 ```
 
-现在，在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/upload.jsp。将会给出下面的画面：
+现在，在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/upload.jsp. 将会给出下面的画面：
 
 ![](images/helloworldstruts7.jpg)
 

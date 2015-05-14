@@ -27,7 +27,7 @@
    - [Spring](struts_spring.md)
    - [Tiles](struts_tiles.md)
    - [Hibernate](struts_hibernate.md)
-- Struts2 Useful Resources
-  - [Struts2 - Quick Guide](struts_quick_guide.md)
-  - [Struts2 - Useful Resources](struts_useful_resources.md)
-  - [Struts2 - Discussion](struts_discussion.md)
+ - Struts2 Useful Resources
+   - [Quick Guide](struts_quick_guide.md)
+   - [Useful Resources](struts_useful_resources.md)
+   - [Discussion](struts_discussion.md)

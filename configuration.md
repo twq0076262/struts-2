@@ -1,4 +1,4 @@
-# Struts2 - 配置文件
+# 配置
 
 本章将带你学习一个 Struts 2 应用程序必需的基本配置。在这里，我们将看到一些重要的配置文件：**web.xml**，**struts.xml**，**struts-config.xml** 和 **struts.properties**，它们将被配置。
 
@@ -6,9 +6,9 @@
 
 ## web.xml 文件
 
-web.xml 配置文件是一个 J2EE 的配置文件，它决定如何用 servlet 容器来处理 HTTP 请求的元素。它不是严格意义上的一个 Struts2 的配置文件，但它是一个 Struts2 工作时需要被配置的文件。
+web.xml 配置文件是一个 J2EE 的配置文件，它决定如何用 servlet 容器来处理 HTTP 请求的元素。它不是严格意义上的一个 Struts 2 的配置文件，但它是一个 Struts 2 工作时需要被配置的文件。
 
-如前所述，这个文件为任何 web 应用程序提供了一个入口点。Struts2 应用程序的入口点是一个在部署描述符（web.xml）中已定义的过滤器。因此，我们将在 web.xml 中定义 FilterDispatcher 类的入口。web.xml 文件需要在 **WebContent/WEB-INF** 文件夹下创建。
+如前所述，这个文件为任何 web 应用程序提供了一个入口点。Struts 2 应用程序的入口点是一个在部署描述符（web.xml）中已定义的过滤器。因此，我们将在 web.xml 中定义 FilterDispatcher 类的入口。web.xml 文件需要在 **WebContent/WEB-INF** 文件夹下创建。
 
 如果你在没有生成配置文件的模板或工具（如 Eclipse 或 Maven2）的帮助下开始，那么 web.xml 是你需要配置的第一个配置文件。下面是在我们最后一个例子中使用的 web.xml 文件的内容。
 
@@ -113,7 +113,7 @@ web.xml 配置文件是一个 J2EE 的配置文件，它决定如何用 servlet 
 
 我们还没有重写的其他的配置文件是 struts-default.xml。这个文件包含了 Struts 的标准配置设置，你就不必要为了你的项目的 99.99％ 修改这些设置。为此，我们不打算详细地介绍这个文件。如果你有兴趣，可以在 struts2-core-2.2.3.jar 文件中有效的 **default.properties** 文件里看到它。
 
-## struts-config.xml 文件:
+## struts-config.xml 文件
 
 struts-config.xml 配置文件是在 Web 客户端中视图和模型组件之间的链接，但是你就不必要为了你的项目的 99.99％ 而修改这些设置。基本配置文件包含下面的主要内容：
 

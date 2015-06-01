@@ -1,7 +1,9 @@
 {
-    "name": "Struts2 教程",
-    "introduction": "Apache Struts2 是一个简洁的，可扩展的框架，它用来创建企业级的 Java web 应用程序。框架的目的是随着时间的积累从构建，部署，维护应用程序上简化整个开发周期。",
-    "title": "Struts2 教程- 极客学院 Wiki",
-    "keywords": "Struts2 中文版,struts,struts2 教程,struts2 原理,struts2 标签库",
-    "description": "Apache Struts2 是一个简洁的，可扩展的框架，它用来创建企业级的 Java web 应用程序。框架的目的是随着时间的积累从构建，部署，维护应用程序上简化整个开发周期。"
+    "name": "Struts 2 教程",
+    "introduction": "Apache Struts 2 是一个简洁的，可扩展的框架，它用来创建企业级的 Java web 应用程序。本教程将教你如何用简单和容易的步骤使用 Apache Struts 来创建企业级的 Java Web 应用程序。",
+    "title": "Struts 2 教程 - 极客学院 Wiki",
+    "keywords": "Struts2中文版,struts拦截器,struts2教程,struts2工作原理,struts2标签库",
+    "description": "Apache Struts 2 是一个简洁的，可扩展的框架，它用来创建企业级的 Java web 应用程序。本教程将教你如何用简单和容易的步骤使用 Apache Struts 来创建企业级的 Java Web 应用程序。"
 }
+
+

@@ -1,4 +1,4 @@
-# Struts 2 - 拦截器
+# 拦截器
 
 拦截器在概念上和servlet过滤器或JDKs代理类一样。拦截器允许横切功能在动作和框架中单独实现。你可以使用拦截器实现下面的内容：
 
@@ -8,9 +8,9 @@
 
 - 捕获异常，以便可以执行交替处理。
 
-Struts2 框架提供的许多功能都是使用拦截实现的；例如包括异常处理，文件上传，生命周期回调和验证等。事实上，由于 Struts2 是许多拦截器功能的基础，所以每次动作不是不可能有 7 个或 8 个拦截器被分配。
+Struts 2 框架提供的许多功能都是使用拦截实现的；例如包括异常处理，文件上传，生命周期回调和验证等。事实上，由于 Struts 2 是许多拦截器功能的基础，所以每次动作不是不可能有 7 个或 8 个拦截器被分配。
 
-## Struts2 框架的拦截器
+## Struts 2 框架的拦截器
 
 Struts 2 框架提供了一列开箱即用的拦截器来预先设定和准备使用。下面列出了几个重要的拦截器：
 
@@ -146,7 +146,7 @@ Struts 2 框架提供了一列开箱即用的拦截器来预先设定和准备�
    &lt;constant name="struts.devMode" value="true" /&gt;
    &lt;package name="helloworld" extends="struts-default"&gt;
       &lt;action name="hello" 
-         class="com.tutorialspoint.struts2.HelloWorldAction"
+         class="com.tutorialspoint.Struts 2.HelloWorldAction"
          method="execute"&gt;
          &lt;interceptor-ref name="params"/&gt;
          &lt;interceptor-ref name="timer" /&gt;
@@ -156,7 +156,7 @@ Struts 2 框架提供了一列开箱即用的拦截器来预先设定和准备�
 &lt;/struts&gt;
 </pre>  
 
-右键单击项目名称，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp. 将会给出下面的画面：
+右键单击项目名称，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts 2/index.jsp. 将会给出下面的画面：
 
 ![](images/helloworldstruts4.jpg)
 
@@ -194,7 +194,7 @@ public interface Interceptor extends Serializable{
 让我们在 **Java Resources > src** 文件夹中创建下面的**MyInterceptor.java**：
 
 ```
-package com.tutorialspoint.struts2;
+package com.tutorialspoint.Struts 2;
 import java.util.*;
 import com.opensymphony.xwork2.ActionInvocation;
 import com.opensymphony.xwork2.interceptor.AbstractInterceptor;
@@ -221,10 +221,10 @@ public class MyInterceptor extends AbstractInterceptor {
 
 ## 创建动作类
 
-让我们在 **Java Resources > src**　中名为 **com.tutorialspoint.struts2** 的包下创建一个 java 文件HelloWorldAction.java，它的内容在下面给出。
+让我们在 **Java Resources > src**　中名为 **com.tutorialspoint.Struts 2** 的包下创建一个 java 文件HelloWorldAction.java，它的内容在下面给出。
 
 ```
-package com.tutorialspoint.struts2;
+package com.tutorialspoint.Struts 2;
 import com.opensymphony.xwork2.ActionSupport;
 public class HelloWorldAction extends ActionSupport{
    private String name;
@@ -275,7 +275,7 @@ public class HelloWorldAction extends ActionSupport{
 &lt;title&gt;Hello World&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-   &lt;h1&gt;Hello World From Struts2&lt;/h1&gt;
+   &lt;h1&gt;Hello World From Struts 2&lt;/h1&gt;
    &lt;form action="hello"&gt;
       &lt;label for="name"&gt;Please enter your name&lt;/label&gt;&lt;br/&gt;
       &lt;input type="text" name="name"/&gt;
@@ -303,11 +303,11 @@ public class HelloWorldAction extends ActionSupport{
 
       &lt;interceptors&gt;
          &lt;interceptor name="myinterceptor"
-            class="com.tutorialspoint.struts2.MyInterceptor" /&gt;
+            class="com.tutorialspoint.Struts 2.MyInterceptor" /&gt;
       &lt;/interceptors&gt;
 
       &lt;action name="hello" 
-         class="com.tutorialspoint.struts2.HelloWorldAction" 
+         class="com.tutorialspoint.Struts 2.HelloWorldAction" 
          method="execute"&gt;
          &lt;interceptor-ref name="params"/&gt;
          &lt;interceptor-ref name="myinterceptor" /&gt;
@@ -335,19 +335,19 @@ web.xml 文件需要在 WebContent 的 WEB-INF 文件夹下创建，如下所示
       <welcome-file>index.jsp</welcome-file>
    </welcome-file-list>
    <filter>
-      <filter-name>struts2</filter-name>
+      <filter-name>Struts 2</filter-name>
       <filter-class>
-         org.apache.struts2.dispatcher.FilterDispatcher
+         org.apache.Struts 2.dispatcher.FilterDispatcher
       </filter-class>
    </filter>
    <filter-mapping>
-      <filter-name>struts2</filter-name>
+      <filter-name>Struts 2</filter-name>
       <url-pattern>/*</url-pattern>
    </filter-mapping>
 </web-app>
 ```
 
-右键单击项目名称，并且单击 **Export > WAR File** 来创建一个 War文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp/ 将会给出下面的画面：
+右键单击项目名称，并且单击 **Export > WAR File** 来创建一个 War文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts 2/index.jsp/ 将会给出下面的画面：
 
 ![](images/helloworldstruts4.jpg)
 
@@ -379,7 +379,7 @@ Post-Processing
 我们已经看到了如何应用拦截器到动作中，应用拦截器栈是没有什么不同的。实际上，我们完全使用相同的标签：
 
 ```
-<action name="hello" class="com.tutorialspoint.struts2.MyAction">
+<action name="hello" class="com.tutorialspoint.Struts 2.MyAction">
    <interceptor-ref name="basicStack"/>
    <result>view.jsp</result>
 </action

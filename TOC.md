@@ -1,4 +1,4 @@
- - Struts 2 Tutorial
+ - Struts 2 基础
    - [基本的 MVC 架构](basic-mvc-architecture.md)
    - [概述](overview.md)
    - [环境设置](environment-setup.md)
@@ -18,16 +18,16 @@
    - [主题/模板](themes-templates.md)
    - [异常处理](exception-handling.md)
    - [注释](annotations.md)
- - Struts 2 Tags
+ - Struts 2 标签
    - [控制标签](control-tags.md)
    - [数据标签](data-tags.md)
    - [表单标签](form-tags.md)
    - [Ajax 标签](ajax-tags.md)
- - Struts 2 Integrations
+ - Struts 2 整合
    - [Spring](spring.md)
    - [Tiles](tiles.md)
    - [Hibernate](hibernate.md)
- - Struts2 Useful Resources
+ - Struts2 有用的资源
    - [快速指南](quick-guide.md)
    - [有用的资源](useful-resources.md)
    - [讨论](discussion.md)

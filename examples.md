@@ -1,4 +1,4 @@
-# Struts 2 – Hello World 例子
+# 实例
 
 因为你学习了 Struts 2 架构，当你在 Struts 2 web 应用程序中点击一个超链接或者提交一个 HTML 表单时，控制器会收集输入并且发送到一个称作 Actions 的 Java 类。当 Action 执行后，结果选择一个资源来显现响应。资源通常是一个 JSP，但是它也可以是一个 PDF 文件，Excel 电子表格或者 Java applet 窗口。
 
@@ -37,7 +37,7 @@
 
 我将使用 Eclipse IDE，所以在一个动态 Web 项目中所有必需的组件都将会被创建。因此，让我们开始创建一个动态 Web 项目。
 
-## 创建动态 Web 项目：
+## 创建动态 Web 项目
 
 启动你的 Eclipse，然后使用 **File > New > Dynamic Web Project**，并且输入项目名称为 **HelloWorldStruts2**，根据下面画面中给出的选项设置其他的选项：
 
@@ -69,7 +69,7 @@
 
 - xwork-core.x.y.z.jar
 
-## 创建 Action 类：
+## 创建 Action 类
 
 Action 类是 Struts 2 应用程序的关键，并且我们在 action 类中实现大部分的业务逻辑。所以让我们在 **Java Resources > src** 下的包名 **com.tutorialspoint.struts2** 中创建一个java 文件 HelloWorldAction.java，下面给出它的内容。
 
@@ -93,7 +93,7 @@ public class HelloWorldAction{
 
 它是一个非常简单的带有一个名为 “name” 属性的类。对于 “name” 属性，我们有标准的 getter 和 setter 方法，还有返回字符串 “success” 的执行方法。
 
-Struts2 框架将创建一个 HelloWorldAction 类的对象并且为了响应用户的动作调用执行方法。你把业务逻辑放在执行方法中，最后返回字符串常量。简单地说为了每个网址，你将必须实现一个动作类，你可以直接使用这个类名作为你的动作名，或者你也可以使用 struts.xml 文件映射到其他的名字，如下所示。
+Struts 2 框架将创建一个 HelloWorldAction 类的对象并且为了响应用户的动作调用执行方法。你把业务逻辑放在执行方法中，最后返回字符串常量。简单地说为了每个网址，你将必须实现一个动作类，你可以直接使用这个类名作为你的动作名，或者你也可以使用 struts.xml 文件映射到其他的名字，如下所示。
 
 ## 创建视图
 
@@ -115,7 +115,7 @@ Struts2 框架将创建一个 HelloWorldAction 类的对象并且为了响应用
 
 标签库指令告诉 Servlet 容器这个页面将使用 Struts 2 的标签，而且这些标签将在 s 之前。 s:property 标签显示动作类属性 "name> 的值，它是由 HelloWorldAction 类的 **getName()** 方法返回的。
 
-## 创建主页：
+## 创建主页
 
 我们还需要在 WebContent 文件夹中创建 **index.jsp**。这个文件将作为初始动作 URL，用户可以点击它来告诉 Struts 2 框架调用 HelloWorldAction 类定义的方法，并且呈现给 HelloWorld.jsp 视图。
 
@@ -197,7 +197,7 @@ Struts2 框架将创建一个 HelloWorldAction 类的对象并且为了响应用
 
 我们已经指定 index.jsp 为我们的 welcome 文件。然后我们已经配置了 Struts2 的过滤器来运行所有的 URL（即任何匹配模式 /* 的 URL）。
 
-## 启用详细日志：
+## 启用详细日志
 
 你可以启用完整的日志记录功能，而通过在 **WEB-INF/classes** 文件夹下创建 **logging.properties** 文件使用 Struts 2 工作。在你的属性文件中保留下面两行语句：
 

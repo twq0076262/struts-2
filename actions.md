@@ -1,12 +1,12 @@
-# Struts 2 – 动作
+# 动作
 
-动作是 Struts2 框架的核心，因为它们是服务于任何 MVC（模型-视图-控制器）的框架。每个 URL 被映射到一个指定的动作中，它提供了必要的处理逻辑来服务用户的请求。
+动作是 Struts 2 框架的核心，因为它们是服务于任何 MVC（模型-视图-控制器）的框架。每个 URL 被映射到一个指定的动作中，它提供了必要的处理逻辑来服务用户的请求。
 
 但是动作也在其他两个重要的能力上起作用。首先，动作在从请求到视图传输数据中起着重要的作用，无论它是一个 JSP 还是其它的结果类型。第二，动作必须协助框架来确定哪些结果应该呈现给视图，该视图在响应中返回给请求。
 
 ## 创建动作
 
-对 Struts2 中动作的唯一要求是必须有一个无参数方法，该方法返回 String 或结果对象，而且必须是一个 POJO。如果无参数方法没有被指定，那么默认的动作是使用 execute() 方法。
+对 Struts 2 中动作的唯一要求是必须有一个无参数方法，该方法返回 String 或结果对象，而且必须是一个 POJO。如果无参数方法没有被指定，那么默认的动作是使用 execute() 方法。
 
 你可以选择扩展 **ActionSupport** 类，它实现了包括**动作**接口的 6 个接口。动作接口如下所示：
 
@@ -24,7 +24,7 @@ public interface Action {
 让我们来看看 Hello World 例子中的动作方法：
 
 ``` 
-package com.tutorialspoint.struts2;
+package com.tutorialspoint.Struts 2;
 public class HelloWorldAction{
    private String name;
    public String execute() throws Exception {
@@ -42,7 +42,7 @@ public class HelloWorldAction{
 为了举例说明动作方法控制着视图，让我们对 **execute** 方法做下面的修改，并且扩展 ActionSupport 类，如下所示：
 
 ``` 
-package com.tutorialspoint.struts2;
+package com.tutorialspoint.Struts 2;
 import com.opensymphony.xwork2.ActionSupport;
 public class HelloWorldAction extends ActionSupport{
    private String name;
@@ -74,7 +74,7 @@ public class HelloWorldAction extends ActionSupport{
       <constant name="struts.devMode" value="true" />
       <package name="helloworld" extends="struts-default">
          <action name="hello" 
-            class="com.tutorialspoint.struts2.HelloWorldAction"
+            class="com.tutorialspoint.Struts 2.HelloWorldAction"
             method="execute">
             <result name="success">/HelloWorld.jsp</result>
             <result name="error">/AccessDenied.jsp</result>
@@ -130,7 +130,7 @@ public class HelloWorldAction extends ActionSupport{
 &lt;title&gt;Hello World&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-   &lt;h1&gt;Hello World From Struts2&lt;/h1&gt;
+   &lt;h1&gt;Hello World From Struts 2&lt;/h1&gt;
    &lt;form action="hello"&gt;
       &lt;label for="name"&gt;Please enter your name&lt;/label&gt;&lt;br/&gt;
       &lt;input type="text" name="name"/&gt;
@@ -145,7 +145,7 @@ public class HelloWorldAction extends ActionSupport{
 
 ## 执行应用程序
 
-在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录中部署这个 WAR。最后，启动 Tomcat 服务器，并且尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp. 它将会给出下面的画面：
+在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个 War 文件。然后在 Tomcat 的 webapps 目录中部署这个 WAR。最后，启动 Tomcat 服务器，并且尝试访问 URL http://localhost:8080/HelloWorldStruts 2/index.jsp. 它将会给出下面的画面：
 
 ![](images/helloworldstruts4.jpg)
 
@@ -162,7 +162,7 @@ public class HelloWorldAction extends ActionSupport{
 你将经常定义一个以上的动作来处理不同的请求，并且给用户提供不同的 URL，因此你可以定义不同的类，定义如下所示：
 
 ``` 
-package com.tutorialspoint.struts2;
+package com.tutorialspoint.Struts 2;
 import com.opensymphony.xwork2.ActionSupport;
    class MyAction extends ActionSupport{
       public static String GOOD = SUCCESS;
@@ -198,13 +198,13 @@ struts>
  <constant name="struts.devMode" value="true" />
    <package name="helloworld" extends="struts-default">
       <action name="hello" 
-         class="com.tutorialspoint.struts2.HelloWorld" 
+         class="com.tutorialspoint.Struts 2.HelloWorld" 
          method="execute">
          <result name="success">/HelloWorld.jsp</result>
          <result name="error">/AccessDenied.jsp</result>
       </action>
       <action name="something" 
-         class="com.tutorialspoint.struts2.SomeOtherClass" 
+         class="com.tutorialspoint.Struts 2.SomeOtherClass" 
          method="execute">
          <result name="success">/Something.jsp</result>
          <result name="error">/AccessDenied.jsp</result>

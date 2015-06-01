@@ -1,4 +1,4 @@
-# Struts 2 - 注释
+# 注释
 
 正如前面所提到的，Struts 提供了两种形式的配置。传统的方式是为所有的配置使用 **struts.xml** 文件。目前为止，在本教程中我们已经见过了太多这样的例子。另一种配置 Struts 的方式是使用 Java 5 注释功能。使用 struts 注释，我们可以实现 **零配置**。
 
@@ -32,7 +32,7 @@
 
 现在让我们看看不用 **struts.xml** 文件中的可用的配置而是用注释代替，应该怎么做。
 
-为了解释 Struts2 中只是的概念，我们应该重新考虑在 [Struts2 Validations](http://www.tutorialspoint.com/struts_2/struts_validations.htm) 章节中解释的验证示例。
+为了解释 Struts2 中只是的概念，我们应该重新考虑在 [Struts 2 - 验证](validations.md) 章节中解释的验证示例。
 
 这里我们采用 **Employee** 的例子，它使用一个简单的页面来获取姓名和年龄，并且我们会设置两个验证来确保用户会输入姓名以及年龄在 28-65 之间。所以让我们从例子中的主 JSP 页面开始。
 
@@ -184,6 +184,8 @@ public class Employee extends ActionSupport{
 Struts 2 应用程序可以使用 Java 5 注释作为 XML 和 Java 属性配置的可选项。你可以查看与不同类别相关的最重要的注释列表：
 
 [Struts 2 注释类型](http://www.tutorialspoint.com/struts_2/struts_annotations_types.htm)
+
+4j：struts_annotations_types 这页要翻译，直接加在下面，不用单独一页。
 
 
 

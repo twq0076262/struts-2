@@ -1,6 +1,6 @@
-# Struts 2 & Spring 集成
+# Spring 集成
 
-Spring 是一个流行的 web 框架，提供了与大量普通 web 任务的简单集成。所以问题是，当我们已经有了 Struts2 时，为什么还需要 Spring？好吧，Spring 不仅仅是一个 MVC 框架——它还提供了许多在 Struts 中不可用的东西。例如：对任何框架都有用的依赖注入。在本章中，我们将通过一个简单的示例来展示如何集成 Spring 和 Struts2。
+Spring 是一个流行的 web 框架，提供了与大量普通 web 任务的简单集成。所以问题是，当我们已经有了 Struts 2 时，为什么还需要 Spring？好吧，Spring 不仅仅是一个 MVC 框架——它还提供了许多在 Struts 中不可用的东西。例如：对任何框架都有用的依赖注入。在本章中，我们将通过一个简单的示例来展示如何集成 Spring 和 Struts 2。
 
 首先，你需要将如下所示的文件添加到 Spring 安装的项目的构建路径中。你可以从 [**http://www.springsource.org/download**](http://www.springsource.org/download) 下载并安装最新的 Spring 框架版本。
 

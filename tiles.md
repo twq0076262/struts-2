@@ -1,6 +1,6 @@
-# Struts 2 & Tiles 集成
+# Tiles 集成
 
-在本章中，让我们浏览用 Struts2 集成 Tiles 框架的步骤。Apache Tiles 是模板框架，用于简化 web 应用程序用户接口开发的。
+在本章中，让我们浏览用 Struts 2 集成 Tiles 框架的步骤。Apache Tiles 是模板框架，用于简化 web 应用程序用户接口开发的。
 
 首先，我们需要从 [**Apache Tiles**](http://tiles.apache.org/) 网站下载 tiles jar 文件。你需要将下列 jar 文件添加到项目的类路径中。
 
@@ -14,7 +14,7 @@
 
 - tiles-servlet-x.y.z.jar
 
-除了上述文件，我么还需要将下列来自 struts2 的 jar 文件复制到你的 **WEB-INF/lib** 中。
+除了上述文件，我么还需要将下列来自 struts 2 的 jar 文件复制到你的 **WEB-INF/lib** 中。
 
 - commons-beanutils-x.y.zjar
 

@@ -1,6 +1,6 @@
-# Struts 2 & Hibernate 集成
+# Hibernate 集成
 
-Hibernate 是一个高性能的对象/关系持久性，能够查询在开源 GNU Lesser General Public License(LGPL) 下的服务较小，并且是免费下载的。在这一章，我们要学习如何用 Hibernate 集成实现 Struts 2 。如果你不熟悉 Hibernate，你可以查看我们的 [**Hibernate 教程**](http://www.tutorialspoint.com/hibernate/index.htm)。
+Hibernate 是一个高性能的对象/关系持久性，能够查询在开源 GNU Lesser General Public License(LGPL) 下的服务较小，并且是免费下载的。在这一章，我们要学习如何用 Hibernate 集成实现 Struts 2。
 
 ## 数据库设置
 

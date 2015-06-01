@@ -23,10 +23,10 @@
    - [数据标签](data-tags.md)
    - [表单标签](form-tags.md)
    - [Ajax 标签](ajax-tags.md)
- - Struts 2 整合
-   - [Spring](spring.md)
-   - [Tiles](tiles.md)
-   - [Hibernate](hibernate.md)
+ - Struts 2 集成
+   - [Spring 集成](spring.md)
+   - [Tiles 集成](tiles.md)
+   - [Hibernate 集成](hibernate.md)
  - Struts2 有用的资源
    - [快速指南](quick-guide.md)
    - [有用的资源](useful-resources.md)

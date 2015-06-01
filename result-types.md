@@ -1,12 +1,15 @@
-# Struts 2 - 结果和结果类型
+# 结果类型
 
-正如前面提到的，**<results>** 标签在 Struts2 的 MVC 框架中担当 **视图**的角色。动作是负责执行业务逻辑。在执行业务逻辑之后，下一步是使用 **<results>** 标签显示视图。
+正如前面提到的，**<results>** 标签在 Struts 2 的 MVC 框架中担当 **视图**的角色。动作是负责执行业务逻辑。在执行业务逻辑之后，下一步是使用 **<results>** 标签显示视图。
 
-经常有一些附带结果的导航规则。例如，如果一个动作方法是对用户进行验证，那么有三种可能的结果。（a）成功的登录；（b）不成功的登录-用户名或密码错误（c）帐户被锁定。
+经常有一些附带结果的导航规则。例如，如果一个动作方法是对用户进行验证，那么有三种可能的结果。    
+（a）成功的登录；
+（b）不成功的登录-用户名或密码错误；    
+（c）帐户被锁定。
 
 在这种情况下，这个动作方法将使用三种可能的结果字符串被配置，并且有三个不同的视图呈现的结果。我们已经在前面的例子中看到了这个。
 
-但是，Struts2 没有阻碍你使用 JSP 作为视图技术。毕竟 MVC 范例的整个目的是保持层是独立和高度可配置的。例如，对于一个 Web2.0 的客户端，你可能想要返回 XML 或 JSON 作为输出。在这种情况下，你可以为 XML 或 JSON 创建一个新的结果类型，并且实现它。
+但是，Struts 2 没有阻碍你使用 JSP 作为视图技术。毕竟 MVC 范例的整个目的是保持层是独立和高度可配置的。例如，对于一个 Web2.0 的客户端，你可能想要返回 XML 或 JSON 作为输出。在这种情况下，你可以为 XML 或 JSON 创建一个新的结果类型，并且实现它。
 
 Struts 自带一些预定义的**结果类型**，无论什么我们已经看到的都是默认的结果类型 **dispatcher**，它是用来调度 JSP 页面的。Struts 允许你为了视图技术使用其它标记语言来呈现结果和流行的选择，包括 **Velocity**，**Freemaker**，**XSLT** 和 **Tiles**。
 
@@ -52,7 +55,7 @@ Hello World ${name}
 <struts>
    <constant name="struts.devMode" value="true" />
    <package name="helloworld" extends="struts-default">
-      <action name="hello"          class="com.tutorialspoint.struts2.HelloWorldAction"
+      <action name="hello"          class="com.tutorialspoint.Struts 2.HelloWorldAction"
          method="execute">
          <result name="success" type="freemarker">
             <param name="location">/hello.fm</param>
@@ -62,11 +65,11 @@ Hello World ${name}
 </struts>
 ```
 
-让我们保留 HelloWorldAction.java，HelloWorldAction.jsp 和 index.jsp 文件，因为我们在 examples 章节中已经创建了他们。现在，在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个  War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts2/index.jsp. 将会给出下面的画面：
+让我们保留 HelloWorldAction.java，HelloWorldAction.jsp 和 index.jsp 文件，因为我们在 examples 章节中已经创建了他们。现在，在项目名称上点击右键，并且单击 **Export > WAR File** 来创建一个  War 文件。然后在 Tomcat 的 webapps 目录下部署这个 WAR。最后，启动 Tomcat 服务器和尝试访问 URL http://localhost:8080/HelloWorldStruts 2/index.jsp. 将会给出下面的画面：
 
 ![](images/helloworldstruts4.jpg)
 
-输入一个值 “Struts2”，并提交该页面，你应该看到下一个页面：
+输入一个值 “Struts 2”，并提交该页面，你应该看到下一个页面：
 
 ![](images/helloworldstruts5.jpg)
 
@@ -80,7 +83,7 @@ Hello World ${name}
 
 ```
 <action name="hello" 
-   class="com.tutorialspoint.struts2.HelloWorldAction"
+   class="com.tutorialspoint.Struts 2.HelloWorldAction"
    method="execute">
    <result name="success" type="redirect">
        <param name="location">
@@ -90,4 +93,4 @@ Hello World ${name}
 </action>
 ```
 
-因此，仅仅修改你的 struts.xml 文件来定义如上所提及的重定向类型，并且创建一个新的文件 NewWorld.jpg，无论何时 hello 动作返回 success，你将会重定向到那里。为了更好的理解，你可以查看[**Struts 2 - Redirect Action**](http://www.tutorialspoint.com/struts_2/struts_redirect_action.htm)。
+因此，仅仅修改你的 struts.xml 文件来定义如上所提及的重定向类型，并且创建一个新的文件 NewWorld.jpg，无论何时 hello 动作返回 success，你将会重定向到那里。

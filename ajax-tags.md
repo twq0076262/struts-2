@@ -1,4 +1,4 @@
-# Struts 2 - The Ajax 标签
+# Ajax 标签
 
 Struts 使用 DOJO 框架实现 AJAX 标签。首先，在介绍例子之前，你需要将 struts2-dojo-plugin-2.2.3.jar 添加到你的类路径中。你可以从下载的 struts2 的 lib 文件夹中获取这个文件(C:\struts-2.2.3-all\struts-2.2.3\lib\struts2-dojo-plugin-2.2.3.jar)。
 

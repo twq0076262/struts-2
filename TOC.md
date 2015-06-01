@@ -27,7 +27,5 @@
    - [Spring 集成](spring.md)
    - [Tiles 集成](tiles.md)
    - [Hibernate 集成](hibernate.md)
- - Struts2 有用的资源
-   - [快速指南](quick-guide.md)
+ - Struts 2 有用的资源
    - [有用的资源](useful-resources.md)
-   - [讨论](discussion.md)

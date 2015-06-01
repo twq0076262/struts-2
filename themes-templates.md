@@ -1,4 +1,4 @@
-# Struts2 - 主题 & 模板
+# 主题/模板
 
 在开始本章教程之前，让我们看几个 *http://struts.apache.org* 给出的定义：
 
@@ -21,7 +21,7 @@
 </tr> 
 </table>
 
-我还建议浏览 [**Struts2 本地化**](http://www.tutorialspoint.com/struts_2/struts_localization.htm)章节，因为我们会再次采用相同的例子来完成我们的实践。
+我还建议浏览 [**Struts 2 本地化**](localization.md) 章节，因为我们会再次采用相同的例子来完成我们的实践。
 
 当你在你的 web 页面上使用一个 Struts 2 标签时，如 <s:submit...>，<s:textfield...> 等，Struts 2 框架会生成 HTML 代码和预配置的样式及布局。Struts 2 有三种内置的主题：
 

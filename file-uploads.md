@@ -1,4 +1,4 @@
-# Struts 2 - 文件上传
+# 文件上传
 
 Struts 2 框架为处理文件上传提供了内置支持，它使用“在 HTML 中基于表单的文件上传”。当上传一个文件时，它通常会被存储在一个临时目录中，而且它们应该由 Action 类进行处理或移动到一个永久的目录，用来确保数据不丢失。
 
@@ -47,7 +47,6 @@ You have successfully uploaded &lt;s:property value="myFileFileName"/&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
-
 
 下面是结果文件 error.jsp，假使在上传文件过程中有一些错误：
 

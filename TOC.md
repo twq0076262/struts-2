@@ -18,6 +18,7 @@
    - [主题/模板](themes-templates.md)
    - [异常处理](exception-handling.md)
    - [注释](annotations.md)
+     - [注释类型](annotations-types.md)
  - Struts 2 标签
    - [控制标签](control-tags.md)
    - [数据标签](data-tags.md)
